@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body {
+    background-color: #121212;
+	margin: 0;
+    color: #0f0;
+    padding: 20px;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+.start-button {
+	display: block;
+	margin: 50vh auto;
+	background-color: black;
+	color: rgb(255, 255, 255);
+	border: none;
+	font-family: "VT323", monospace;
+	font-size: 1.5rem;
+	box-shadow: 0 0 5px #ffffff;
+	cursor: pointer;
+}
+
+.start-button:hover {
+	background-color: rgb(255, 255, 255);
+	color: black;
+}
+
+#backboard {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    position: relative;
+	overflow: hidden;
+	border: 0.5pt solid rgb(255, 255, 255);
+}
+
+.code-column {
+	color: rgb(255, 255, 255);
+	margin: 0;
+	padding: 10px;
+	text-wrap: wrap;
+	font-family: "VT323", monospace;
+	font-size: 1.5rem;
+	text-shadow: 0 0 15px #c4d4c4;
+	position:absolute;
+	bottom: 0;
+}
+.hidden-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-left: 70%;
+	  font-family: "VT323", monospace;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    transition: all 2s ease;
+  }
+  .hidden-button:hover {
+    color: #ff2222;
+    border-color: #ff5722;
+  }
+  .hidden-button2 {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-left: 70%;
+	font-family: "VT323", monospace;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    transition: all 2s ease;
+  }
+  .hidden-button2:hover {
+    color: #ff2222;
+    border-color: #ff5722;
+  }
+  .hidden-button3 {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-left: 70%;
+	  font-family: "VT323", monospace;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    transition: all 2s ease;
+  }
+  .hidden-button3:hover {
+    color: #ff2222;
+    border-color: #ff5722;
+  }
+  

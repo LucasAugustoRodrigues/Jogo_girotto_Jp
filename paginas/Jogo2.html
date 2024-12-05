@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cipher Shadows</title>
+    <link rel="stylesheet" href="/css/jogo.css">
+    <link rel="shortcut icon" type="imagex/png" href="/image/Logo-cipher-shadows-final.ico">
+</head>
+
+<body>
+    <div class="container">
+        <audio id="background-audio" autoplay loop>
+            <source src="/sound/Missao_Impossivel.mp3" type="audio/mpeg">
+        </audio>
+        <h1>Laboratório em Moscovo-Rússia</h1>
+        <p id="instructions">Bem-vindo! Entenda cada técnica de criptografia antes de resolver o desafio.</p>
+        <p id="explanation"></p>
+        <p id="challenge" style="display: none;"></p>
+        <center>
+            <input type="text" id="answer" placeholder="Digite sua resposta" style="display: none;">
+            <button id="next" style="display: none;">Próximo</button>
+            <button id="submit" style="display: none;">Enviar</button>
+            <button id="hint" style="display: none;">Dica</button>
+            <img id="hintImage" src="" alt="" style="display: none; width: 100%; max-width: 300px; margin-top: 10px;">
+        </center>
+        <p id="feedback"></p>
+
+
+        <p id="attempts" style="display: none;">Tentativas restantes: <span id="attemptsCount">3</span></p>
+    </div>
+    <script>
+        window.onload = function () {
+            const audio = document.getElementById('background-audio');
+            audio.volume = 0.03; 
+        };
+    </script>
+    <script src="/js/jogo2.js"></script>
+</body>
+
+</html>
