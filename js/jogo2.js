@@ -8,7 +8,7 @@ const challenges = [
     {
         explanation: "Quando a chave é maior que o texto na Cifra de Vigenère, você tem algumas opções de como lidar com isso, dependendo do que você deseja alcançar. A cifra tradicionalmente requer que a chave seja repetida para cobrir o texto completo, mas quando a chave é maior, você pode seguir diferentes abordagens; Usar apenas os primeiros caracteres da chave: A solução mais simples é usar apenas os primeiros caracteres da chave que correspondem ao comprimento do texto. Isso significa que, se a chave for maior do que o texto, apenas a quantidade necessária de caracteres da chave será utilizada. Usar a chave maior em blocos: Em vez de usar a chave inteira para cifrar o texto de uma vez, você pode também dividir o texto e a chave em blocos. Isso é mais complexo e não é comumente aplicado na cifra de Vigenère tradicional, mas poderia ser uma solução interessante dependendo do contexto.  Cada letra é convertida para seu valor numérico no alfabeto (A=0, B=1, C=2, ..., Z=25).",
         question: "Texto Original: EQWEFAS - Chave: LONGKEYEXTRA",
-        answer: "tcjywu",
+        answer: "PEJKPEQ",
         hint: "/image/cifra-de-multi.png"
     },
     {
